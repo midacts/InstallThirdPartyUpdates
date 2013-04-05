@@ -34,8 +34,6 @@ $comp = $godesk
 $cred = Get-credential -credential $domain\$username
 $session = New-Pssession -cn $comp -credential $cred -authentication Credssp
 
-
-
 # This is the script that will actually import the functions that will be run # on the remote PCs
 #
 #
